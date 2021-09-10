@@ -1,0 +1,26 @@
+use_field_init_shorthand = true
+newline_style = "Unix"
+
+# The following lines may be uncommented on nightly Rust.
+# Once these features have stabilized, they should be added to the always-enabled options above.
+#unstable_features = true
+#imports_granularity = "Crate"
+#reorder_impl_items = true
+#wrap_comments = true
+#comment_width = 100
+#normalize_comments = true
+
+edition = "2018"
+
+max_width = 80
+array_width = 50
+indent_style = "Block"
+reorder_imports = false
+reorder_modules = false
+merge_derives = false
+use_small_heuristics = "Max"
+
+error_on_line_overflow = true
+error_on_unformatted = true
+
+ignore = []
