@@ -38,6 +38,8 @@ fn parse_args() -> Result<Args> {
     })
 }
 
+//TO-DO: The login_with_code function is now with mulformat, need to refaactor 
+
 fn exit_with_help() -> ! {
     eprintln!(
         "
